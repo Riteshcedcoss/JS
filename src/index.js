@@ -200,7 +200,12 @@ const lastName = "Lovelace";
 // // Only change code below 
 // const removedFromMyArray = myArray.pop();
 
+// const myArray = [["John", 23], ["dog", 3]];
+
+// // Only change code below this line
+// const removedFromMyArray= myArray.shift();
 const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
 
 // Only change code below this line
-const removedFromMyArray= myArray.shift();
+myArray.unshift(["Paul", 35])
