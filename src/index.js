@@ -195,7 +195,12 @@ const lastName = "Lovelace";
 // myArray.push(["dog",3])
 
 // Setup
-const myArray = [["John", 23], ["cat", 2]];
+// const myArray = [["John", 23], ["cat", 2]];
 
-// Only change code below 
-const removedFromMyArray = myArray.pop();
+// // Only change code below 
+// const removedFromMyArray = myArray.pop();
+
+const myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+const removedFromMyArray= myArray.shift();
