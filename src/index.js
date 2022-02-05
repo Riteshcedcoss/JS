@@ -217,9 +217,14 @@ const lastName = "Lovelace";
 //   }
 //   reusableFunction();
 
-function functionWithArgs(a, b) {
-    console.log(a + b);
-  }
-  functionWithArgs(1, 2);
-  functionWithArgs(7, 9);
+// function functionWithArgs(a, b) {
+//     console.log(a + b);
+//   }
+//   functionWithArgs(1, 2);
+//   functionWithArgs(7, 9);
   
+function plusThree(num) {
+    return num + 3;
+  }
+  
+  const answer = plusThree(5);
