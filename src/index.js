@@ -11,3 +11,6 @@ var b;
 // Only change code below this line
 b=a;
 var c=9;
+
+var myFirstName="Ritesh";
+var myLastName="gupta";
