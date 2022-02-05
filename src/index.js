@@ -127,13 +127,19 @@ Welcome to Cedcoss
 // lastNameLength = lastName.length;
 
 // Setup
-let firstLetterOfLastName = "";
+// let firstLetterOfLastName = "";
+// const lastName = "Lovelace";
+
+// firstLetterOfLastName = lastName[0]; // Change this line
+
+
+// let myStr = "Jello World";
+
+
+// myStr="Hello World";
+
+// Setup
 const lastName = "Lovelace";
 
-firstLetterOfLastName = lastName[0]; // Change this line
-
-
-let myStr = "Jello World";
-
-
-myStr="Hello World";
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
