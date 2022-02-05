@@ -211,3 +211,8 @@ const lastName = "Lovelace";
 // myArray.unshift(["Paul", 35])
 
 const myList = [["Ritesh",123],["kumar",67],["hgk",5865],["hjkf",9779],["kfjh",687]];
+
+function reusableFunction() {
+    console.log("Hi World")
+  }
+  reusableFunction();
