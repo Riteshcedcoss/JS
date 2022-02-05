@@ -210,9 +210,16 @@ const lastName = "Lovelace";
 // // Only change code below this line
 // myArray.unshift(["Paul", 35])
 
-const myList = [["Ritesh",123],["kumar",67],["hgk",5865],["hjkf",9779],["kfjh",687]];
+// const myList = [["Ritesh",123],["kumar",67],["hgk",5865],["hjkf",9779],["kfjh",687]];
 
-function reusableFunction() {
-    console.log("Hi World")
+// function reusableFunction() {
+//     console.log("Hi World")
+//   }
+//   reusableFunction();
+
+function functionWithArgs(a, b) {
+    console.log(a + b);
   }
-  reusableFunction();
+  functionWithArgs(1, 2);
+  functionWithArgs(7, 9);
+  
