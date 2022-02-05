@@ -204,8 +204,10 @@ const lastName = "Lovelace";
 
 // // Only change code below this line
 // const removedFromMyArray= myArray.shift();
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
+// const myArray = [["John", 23], ["dog", 3]];
+// myArray.shift();
 
-// Only change code below this line
-myArray.unshift(["Paul", 35])
+// // Only change code below this line
+// myArray.unshift(["Paul", 35])
+
+const myList = [["Ritesh",123],["kumar",67],["hgk",5865],["hjkf",9779],["kfjh",687]];
