@@ -112,5 +112,9 @@ Welcome to Cedcoss
 
 // let myStr="This is the first sentence." ;
 // myStr+=" This is the second sentence.";
-const myName = " My name is " ;
-const myStr =  "gdgdg  " +myName+ " and I am well!";
+// const myName = " My name is " ;
+// const myStr =  "gdgdg  " +myName+ " and I am well!";
+
+const someAdjective = "ram";
+let myStr = "Learning to code is ";
+myStr +=someAdjective;
