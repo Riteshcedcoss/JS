@@ -254,13 +254,30 @@ function fun1() {
 //   }
 //   myLocalScope();
   
-const outerWear = "T-Shirt";
+// const outerWear = "T-Shirt";
 
-function myOutfit() {
-  // Only change code below this line
-const outerWear = "sweater";
-  // Only change code above this line
-  return outerWear;
+// function myOutfit() {
+//   // Only change code below this line
+// const outerWear = "sweater";
+//   // Only change code above this line
+//   return outerWear;
+// }
+
+// myOutfit();
+
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
 }
 
-myOutfit();
+// Only change code below this line
+ function addFive(){
+   sum = sum +5;
+ }
+
+// Only change code above this line
+
+addThree();
+addFive();
