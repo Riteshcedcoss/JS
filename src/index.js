@@ -163,4 +163,5 @@ const lastName = "Lovelace";
 // let wordBlanks = "Once there was a " + myNoun + " which was very " + myAdjective + ". ";
 // wordBlanks += "It " + myVerb + " " + myAdverb + " around the yard.";
 
-const myArray = ["Ritesh",123];
+// const myArray = ["Ritesh",123];
+const myArray = [["Ritesh",45],["gupta",54]];
