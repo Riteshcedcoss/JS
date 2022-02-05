@@ -166,11 +166,16 @@ const lastName = "Lovelace";
 // const myArray = ["Ritesh",123];
 // const myArray = [["Ritesh",45],["gupta",54]];
 
-var ourArray = [1,2,3];
-var ourData = ourArray[0]; // equals 1
+// var ourArray = [1,2,3];
+// var ourData = ourArray[0]; // equals 1
 
+// // Setup
+// var myArray = [1,2,3];
+
+// // Only change code below this line.
+// var myData = myArray[0];
 // Setup
-var myArray = [1,2,3];
+const myArray = [18, 64, 99];
 
-// Only change code below this line.
-var myData = myArray[0];
+// Only change code below this line
+myArray[0] = 45;
