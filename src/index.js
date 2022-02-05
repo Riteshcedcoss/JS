@@ -164,4 +164,13 @@ const lastName = "Lovelace";
 // wordBlanks += "It " + myVerb + " " + myAdverb + " around the yard.";
 
 // const myArray = ["Ritesh",123];
-const myArray = [["Ritesh",45],["gupta",54]];
+// const myArray = [["Ritesh",45],["gupta",54]];
+
+var ourArray = [1,2,3];
+var ourData = ourArray[0]; // equals 1
+
+// Setup
+var myArray = [1,2,3];
+
+// Only change code below this line.
+var myData = myArray[0];
