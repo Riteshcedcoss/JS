@@ -115,6 +115,13 @@ Welcome to Cedcoss
 // const myName = " My name is " ;
 // const myStr =  "gdgdg  " +myName+ " and I am well!";
 
-const someAdjective = "ram";
-let myStr = "Learning to code is ";
-myStr +=someAdjective;
+// const someAdjective = "ram";
+// let myStr = "Learning to code is ";
+// myStr +=someAdjective;
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
