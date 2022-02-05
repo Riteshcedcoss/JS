@@ -305,7 +305,18 @@ function fun1() {
 //   console.log("Before: " + JSON.stringify(testArr));
 //   console.log(nextInLine(testArr, 6));
 //   console.log("After: " + JSON.stringify(testArr));
-function welcomeToBooleans() {
-    // Only change code below this line
+// function welcomeToBooleans() {
+//     // Only change code below this line
   
-    return true;
+//     return true;
+function myFunction(wasThatTrue) {
+
+    // Only change code below this line.
+    if(wasThatTrue) {
+      return "That was true";
+    }
+    return "That was false";
+  
+    // Only change code above this line.
+  
+  }
