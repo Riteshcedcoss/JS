@@ -2,3 +2,4 @@
 /*
 Welcome to Cedcoss
 */
+var myName;
