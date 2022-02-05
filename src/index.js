@@ -281,11 +281,27 @@ function fun1() {
 
 // addThree();
 // addFive();
-let processed = 0;
+// let processed = 0;
 
-function processArg(num) {
-  return (num + 3) / 5;
-}
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
 
-// Only change code below this line
-processed = processArg(7);
+// // Only change code below this line
+// processed = processArg(7);
+
+function nextInLine(arr, item) {
+    // Only change code below this line
+    arr.push(item);
+    var firstItem = arr.shift(arr);
+    return firstItem;
+    // Only change code above this line
+  }
+  
+  // Setup
+  const testArr = [1, 2, 3, 4, 5];
+  
+  // Display code
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + JSON.stringify(testArr));
